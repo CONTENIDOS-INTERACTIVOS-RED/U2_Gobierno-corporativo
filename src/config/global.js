@@ -16,8 +16,8 @@ export default {
         imagen: require('@/assets/curso/banner-principal-decorativo-2.svg'),
       },
     ],
-    numeroUnidad: '1',
-    tituloUnidad: 'Principios y estructuras del gobierno corporativo',
+    numeroUnidad: '2',
+    tituloUnidad: 'Normatividad e impacto del gobierno corporativo',
   },
   menuPrincipal: {
     menu: [
@@ -31,30 +31,48 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Fundamentos del gobierno corporativo',
+        titulo: 'Regulación y normativas del gobierno corporativo',
         desarrolloContenidos: true,
-        subMenu: [],
+        subMenu: [
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.1',
+            titulo: 'Superintendencia Financiera de Colombia',
+            hash: 't_1_1',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.2',
+            titulo: 'Superintendencia Bancaria',
+            hash: 't_1_2',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.3',
+            titulo: 'Superintendencia de Valores',
+            hash: 't_1_3',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.4',
+            titulo:
+              'Integración de las dos entidades en la Superintendencia Financiera de Colombia',
+            hash: 't_1_4',
+          },
+          {
+            icono: 'far fa-file-alt',
+            numero: '1.5',
+            titulo: 'Leyes y decretos',
+            hash: 't_1_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Estructura del Gobierno Corporativo ',
-        desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.1',
-            titulo: 'Estructuras de gobierno corporativo en el mundo',
-            hash: 't_2_1',
-          },
-        ],
-      },
-      {
-        nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
-        numero: '3',
-        titulo: 'Pilares del Gobierno Corporativo en Colombia',
+        titulo:
+          'Impacto del gobierno corporativo en la competitividad y sostenibilidad ',
         desarrolloContenidos: true,
         subMenu: [],
       },
@@ -96,97 +114,156 @@ export default {
   referencias: [
     {
       referencia:
-        'Betancur A. (2013). Gobierno Corporativo: Una Comparación de Códigos de Gobierno en el mundo, Un modelo para empresas latinoamericanas familiares y no familiares 1. Revista Entramado Vol. 9 No. 2.',
-      link: 'http://www.scielo.org.co/pdf/entra/v9n2/v9n2a08.pdf',
+        'Chavarro, J. (2018). Constitución política de Colombia (3a. ed.). Grupo Editorial Nueva Legislación SAS.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/68946',
     },
     {
       referencia:
-        'Garzón, M. (2021). EL CONCEPTO DE GOBIERNO CORPORATIVO. Revista Científica "Visión de Futuro" - Facultad de Ciencias Económicas – UnaM.',
-      link: 'https://www.redalyc.org/journal/3579/357966632009/',
+        'Cruz, G. (2006). La institucionalización de la empresa: casos de éxito de gobierno corporativo. Universidad Anáhuac del Sur S.C. en coedición con Editorial Miguel Ángel Porrúa.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/103050',
     },
     {
       referencia:
-        'Haro-Sarango, A. (2021). Estructura de Gobierno Corporativo: Un aplicativo para la transparencia y mejora empresarial en Ecuador. Revista científica en ciencias sociales, 3(2), 111-121.',
+        'Decreto 327 de 2005 [Alcaldía Mayor de Bogotá]. Por el cual se suprimen y se crean unos cargos en la planta global del Departamento Administrativo de Bienestar Social del Distrito. 14 de septiembre de 2005.',
       link:
-        'http://scielo.iics.una.py/scielo.php?script=sci_arttext&pid=S2708-04122021000200111#B2',
+        'https://www.alcaldiabogota.gov.co/sisjur/normas/Norma1.jsp?i=17608',
     },
     {
       referencia:
-        'Izquierdo, Et al. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Universitat Jaume I. Servei de Comunicació i Publicacions.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/53258',
-    },
-    {
-      referencia:
-        'Mallin, CA. (2011). Manual sobre gobernanza corporativa internacional: análisis de países. Segunda edición, Edward Elgar Publishing, Cheltenham.',
-      link: 'http://dx.doi.org/10.4337/9781849808293',
-    },
-    {
-      referencia:
-        'Mastragelo, A. (2017). The financial aspects of corporate governance.',
+        'Decreto 663 de 1993 [Congreso de la República]. Por medio del cual se actualiza el Estatuto Orgánico del Sistema Financiero. 2 de abril de 1993.',
       link:
-        'https://alejandramastrangelo.com/wp-content/uploads/2017/12/Report-of-The-Committee-on-The-Financial-Aspects-of-Corporate-Governance.pdf',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=1348',
     },
     {
       referencia:
-        'Olcese, A. (2014). La responsabilidad social, motor del cambio empresarial: una propuesta española para Europa y América Latina. McGraw-Hill España.',
-      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/50281',
-    },
-    {
-      referencia:
-        'Fernández Izquierdo, M. Á. (2014). El gobierno corporativo como motor de la responsabilidad social corporativa. Castelló de la Plana, Spain: Universitat Jaume I. Servei de Comunicació i Publicacions.',
+        'Decreto 1925 de 2009 [Presidencia de la República]. Reglamentación del artículo 23 de la Ley 222 de 1995. 28 de mayo de 2009.',
       link:
-        'https://elibro.net/es/ereader/tecnologicadeloriente/53258%20pag%2028?page=28',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=36306',
+    },
+    {
+      referencia:
+        'Decreto 2115 de 1992 [Presidencia de la República]. Por el cual se reestructura la superintendencia de valores. 29 de diciembre de 1992.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=14019662',
+    },
+    {
+      referencia:
+        'Decreto 2555 de 2010 [Presidencia de la República]. Normas del sector financiero, asegurador y del mercado de valores. 15 de julio de 2010.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=40032',
+    },
+    {
+      referencia:
+        'Decreto 2920 de 1982 [Presidencia de la República]. Normas para asegurar la confianza del público en el sector financiero. 8 de octubre de 1982.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1877027',
+    },
+    {
+      referencia:
+        'Decreto 3923 de 2006 [Presidencia de la República]. Elección de miembros independientes de Juntas Directivas. 8 de noviembre de 2006.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1538736',
+    },
+    {
+      referencia:
+        'Ley 32 de 1979 [Congreso de la República]. Por la cual se crea la Comisión Nacional de Valores. 17 de mayo de 1979.',
+      link: 'https://www.suin-juriscol.gov.co/viewDocument.asp?id=1588744',
+    },
+    {
+      referencia:
+        'Ley 35 de 1993 [Congreso de la República]. Normas generales sobre actividades financiera, bursátil y aseguradora. 5 de enero de 1993.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=66945',
+    },
+    {
+      referencia:
+        'Ley 45 de 1923 [Congreso de la República]. Sobre establecimientos bancarios. 19 de julio de 1923.',
+      link:
+        'https://www.javeriana.edu.co/personales/hbermude/leycontable/contadores/1923-ley-45.pdf',
+    },
+    {
+      referencia:
+        'Ley 51 de 1918 [Congreso de la República]. Sobre establecimientos o sociedades de crédito. 21 de noviembre de 1918.',
+      link:
+        'https://www.javeriana.edu.co/personales/hbermude/leycontable/contadores/1918-ley-51.pdf',
+    },
+    {
+      referencia:
+        'Ley 510 de 1999 [Congreso de la República]. Disposiciones sobre el sistema financiero y asegurador. 3 de agosto de 1999.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9916',
+    },
+    {
+      referencia:
+        'Ley 964 de 2005 [Congreso de la República]. Normas generales sobre actividades de manejo de recursos del público. 8 de julio de 2005.',
+      link:
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=22412',
+    },
+    {
+      referencia:
+        'Montaño, E. (2013). Control interno, auditoría y aseguramiento, revisoría fiscal y gobierno corporativo. Programa Editorial Universidad del Valle.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/129501',
+    },
+    {
+      referencia:
+        'Moreno, J. (2022). ¿Una empresa de todos? la participación del trabajo en el gobierno corporativo. Los libros de la Catarata.',
+      link: 'https://elibro.net/es/ereader/tecnologicadeloriente/247741',
     },
   ],
   glosario: [
     {
-      termino: 'Alta Gerencia',
+      termino: 'Asociación Bancaria',
       significado:
-        'División de una compañía que se encarga de la gestión operativa diaria de la empresa.',
+        'Entidad privada, sin ánimo de lucro, que agrupa a instituciones bancarias y financieras colombianas. Fue creada en 1936 y está domiciliada en Bogotá.',
     },
     {
-      termino: 'Autorregulación',
-      significado:
-        'Capacidad de controlar las emociones y el comportamiento de acuerdo a las demandas de una situación. Es una habilidad que se desarrolla con el tiempo y que puede ayudar a mejorar la calidad de vida emocional, las relaciones interpersonales, la productividad y la toma de decisiones.',
+      termino: 'BVC',
+      significado: 'Bolsa de Valores de Colombia.',
     },
     {
-      termino: 'Comité Gerencial',
+      termino: 'Decreto',
       significado:
-        'Grupo de personas que gestiona y formula las estrategias empresariales.',
+        'Resolución escrita que contiene normas y que es emitida por el poder ejecutivo o por el poder legislativo. Es una decisión que se toma para atender una situación de carácter general y que puede o no tener el rango de ley.',
     },
     {
-      termino: 'Diversidad de género',
+      termino: 'El Comité de Basilea',
       significado:
-        'La diversidad de género es la posibilidad que tienen las personas de vivir, expresar y asumir su sexualidad, así como sus orientaciones, expresiones, preferencias e identidades sexuales.',
+        'También conocido como Comité de Supervisión Bancaria de Basilea (BCBS), es una organización mundial que busca fortalecer la solidez de los sistemas financieros. Su función es establecer y promover normas internacionales, directrices y buenas prácticas en materia de regulación y supervisión bancaria.',
     },
     {
-      termino: 'GB',
-      significado: 'Gobierno Corporativo.',
+      termino: 'Gran Recesión',
+      significado:
+        'Crisis económica mundial que se desarrolló entre 2007 y 2009, y es considerada la más grave desde la Gran Depresión de 1930.',
     },
     {
-      termino: 'Informe Cadbury',
+      termino: 'La División Básica de Boyatzis',
       significado:
-        'Fue el primer modelo de control interno del Reino Unido y es reconocido a nivel mundial. Su objetivo principal es abordar aspectos de gobierno corporativo y financieros y ha servido para dar certeza, sobre todo a aquellas empresas que cotizan en dichos mercados.',
+        'Boyatzis considera que saber cómo somos realmente implica reconocer nuestras fortalezas y nuestras debilidades y que no es fácil porque existen obstáculos que lo dificultan.',
     },
     {
-      termino: 'Junta Directiva',
+      termino: 'La integración de factores ESG',
       significado:
-        'Órgano de gobierno que se encarga de tomar decisiones y supervisar la estructura organizacional de una empresa u organización.',
+        'Proceso que consiste en incorporar los criterios ESG en el análisis y las decisiones de inversión. ESG son las siglas en inglés de Environmental, Social and Governance, que en español se traduce como Ambiental, Social y de Gobernanza.',
     },
     {
-      termino: 'OPA',
+      termino: 'Ley',
       significado:
-        'Oferta Pública De Adquisición. Es una operación en la que un grupo de personas o empresas ofrecen comprar las acciones de una empresa a sus accionistas. El precio de compra suele ser mayor al del mercado y se conoce como prima. Las opas pueden ser voluntarias u obligatorias, amistosas u hostiles.',
+        'Es una norma jurídica que establece los límites de lo permitido entre el Estado y sus súbditos. Las leyes son dictadas por la autoridad competente y acordadas por los órganos legislativos.',
     },
     {
-      termino: 'Stakeholders',
-      significado:
-        'Personas u organizaciones que tienen un interés en las actividades y resultados de una empresa.',
+      termino: 'Pymes',
+      significado: 'Pequeñas y medianas empresas.',
     },
     {
-      termino: 'Transparencia',
+      termino: 'RNVE',
+      significado: 'Registro Nacional de Valores y Emisores.',
+    },
+    {
+      termino: 'Superintendencia Financiera',
       significado:
-        'Es la práctica de compartir información real, útil y comprensible con las partes interesadas de una organización. Esto incluye a empleados, clientes, proveedores y la comunidad en general.',
+        'Entidad pública que vigila y regula el sistema financiero de Colombia.',
+    },
+    {
+      termino: 'Taxativo',
+      significado:
+        'Algo es obligatorio en todo caso, independientemente de la voluntad de los particulares.',
     },
   ],
   complementario: [

@@ -1,1 +1,1 @@
-module.exports = 'Unidad 1. Principios y estructuras del gobierno corporativo'
+module.exports = 'Unidad 2. Normatividad e impacto del gobierno corporativo'

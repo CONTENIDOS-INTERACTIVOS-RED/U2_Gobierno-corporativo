@@ -22,7 +22,7 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 El Gobierno Corporativo establece normas para una gestión empresarial transparente y responsable, promoviendo la colaboración entre accionistas, directivos y demás partes interesadas. Su estructura varía según modelos internacionales como el norteamericano, anglosajón, japonés y colombiano, cada uno adaptado a sus contextos legales y culturales. Este enfoque fomenta principios clave: responsabilidad, transparencia, equidad e independencia, esenciales para la sostenibilidad organizacional. En Colombia, incluye normativas como el Código de Buen Gobierno, pilares de transparencia y autorregulación, además de valorar la diversidad en juntas directivas para enriquecer la toma de decisiones.
+              p.descripcion.mb-4 El gobierno corporativo es clave para la transparencia, sostenibilidad y competitividad de las empresas en un entorno globalizado. En Colombia, iniciativas como el Código País y normativas como la Ley 964 de 2005 y el Decreto 2555 de 2010 regulan actividades financieras y de valores. La creación de la Superintendencia Financiera mediante la integración de las Superintendencias Bancaria y de Valores refuerza la supervisión del sistema financiero, promoviendo prácticas éticas y responsables. Además, modelos como el de Boyatzis destacan la importancia de competencias para un desempeño organizacional exitoso.
               p.descripcion.mb-4.mb-lg-5.pb-lg-4 <em> ¡A seguir avanzando con determinación! </em>
 
               .button-container.mt-auto

@@ -2,7 +2,7 @@
 .curso-main-container.creditos-vista
   BannerInterno(subTitulo="SÍNTESIS")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-4.mb-md-5 El Gobierno Corporativo promueve transparencia y responsabilidad mediante normas que alinean intereses y garantizan decisiones éticas. En Colombia, integra principios como diversidad y sostenibilidad, equilibrando resultados económicos con impacto social y ambiental.
+    p.mb-4.mb-md-5 Los temas desarrollados en esta unidad son temas iniciales para conceptualizar el tema del Gobierno Corporativo, el cual hace referencia como ya se ha dicho al conjunto de normas, prácticas y procesos que regulan la gestión y dirección de una empresa.
     figure
       img(src='@/assets/componentes/sintesis.png', alt='Texto que describa la imagen')
     
