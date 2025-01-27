@@ -10,7 +10,7 @@
 
         figure
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+            <iframe width="1903" height="748" src="https://www.youtube.com/embed/Vl419ybyJRs" title="Relación entre sostenibilidad y competitividad" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         
 
     p.mb-4 El gobierno corporativo y la RSE son pilares fundamentales para la sostenibilidad empresarial. Ambos promueven el bienestar de la sociedad y el medio ambiente, alineando los objetivos empresariales con los valores sociales y éticos.
